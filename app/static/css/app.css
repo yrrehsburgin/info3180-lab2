@@ -1,3 +1,104 @@
 body {
     padding-top: 5rem;
+    font-size: 14px;
+    background-color: white;
+    height:700px;
+    width: 600px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+
+.fullname{
+ color: white;
+ text-align: center;
+ letter-spacing: 2px;
+ margin: 15px 0px;
+ font-weight: bold;
+ font-size: 17px;
+}
+
+img{
+    align-self:center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.contain{
+    border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-top: 3rem;
+    height:60%;
+    text-align: center;
+    background-color: #7D7D7D;
+    margin: auto;
+}
+
+
+
+#info{
+    margin: 10px 0px;
+}
+
+#moreinfo{
+    text-align:center;
+    background-color:#F0F0F0;
+    border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height:40%;
+	padding-bottom: 3rem;
+    
+}
+
+
+.base{
+    position: relative;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+#bio{
+    padding-top: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+/*
+
+li span{
+    margin: 10px;
+    margin-left: 25px;
+    display: inline-block;
+}*/
+
+
+.numfollow{
+    text-align: center;
+    font-size: 16px;
+    word-spacing: 65px;
+    margin-bottom: 7px;
+}
+
+.labelfollow{
+    text-align: center;
+    margin: 0;
+    word-spacing: 40px;
+    padding: 1;
+
+}
+
+button{
+    align-items:center;
+    margin-left: 150px;
+    margin-bottom:50px;
+    border-radius:5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+    background-color: #4BCE30;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    margin:auto;
 }

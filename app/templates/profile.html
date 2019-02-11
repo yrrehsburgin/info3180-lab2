@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="contain">
+    <div id="profheader">
+        <div id="image">
+            <img src= "{{url_for('static', filename = 'alone.JPG') }}"/>
+        </div>
+        
+        <div id=info>
+            <p class="fullname">{{fullname}} </p> 
+            <p> @sayuri_duste </p>
+            <p> Kingstown, St.Vincent </p>
+            <p> {{formatted_date}} </p>
+        </div>
+    </div>
+</div>
+   
+   <div id="moreinfo">
+       <p id="bio">
+           Live Love Life. I Believe That Being Happy Doesn't Mean Everything Is Perfect. 
+           It Means That You've Decided To Look Beyond The Imperfections. 
+       </p>
+       
+       <div id="fans">
+           <div class= "base">
+             <ul style ="list-style-type:none">
+                <li class= 'numfollow'>
+                    <span id='num1' style= 'font-weight:bold'>30</span>
+                    <span id='num2' style= 'font-weight:bold'>80</span>
+                    <span id='num3' style= 'font-weight:bold'>350</span>
+                </li>
+                           
+                <li class= "labelfollow">
+                    <span id= "fol1" style= 'color:grey'>Posts</span>
+                    <span id= "fol2" style= 'color:grey'>Following</span>
+                    <span id= "fol3" style= 'color:grey'>Followers</span>
+                </li>
+             </ul>
+                        
+           </div>
+           <button id="follow">Follow</button>
+           
+       </div>
+   </div>
+   
+   
+
+{% endblock %}
